@@ -20,7 +20,7 @@ export const List= styled.ul`
         outline: 4px solid blueviolet;
     }
 
-    @media screen and (max-width:46em){
+    @media screen and (max-width:48em){
         display: none;
     }
 `;
@@ -31,9 +31,9 @@ export const Btn = styled.button`
     cursor: pointer;
     position: fixed;
     z-index: 9999;
-    right: 2rem;
+    right: 0.5rem;
 
-    @media screen and (max-width:46em){
+    @media screen and (max-width:48em){
         display: block;
     }
 `;
@@ -51,7 +51,7 @@ export const MenuBG = styled.div`
     right: 1rem;
     z-index: 1000;
     transform: ${({open}) => (open ? 'scale(1000)' : 'scale(0)')};
-    transition: transform 0.8s ease-in-out;
+    transition: transform 0.3s ease-in-out;
     background-image: linear-gradient( rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.5) );
 `;
 
@@ -92,7 +92,7 @@ export const Icon = styled.span`
 export const Mobile = styled.nav`
     width: 60%;
     min-height: 100vh;
-    padding: 5rem 1rem 0 0;
+    padding: 5rem 0.5rem 0 0;
     display: none;
     background-color: var(--bg-two);
     position: fixed;
@@ -122,8 +122,8 @@ export const Mobile = styled.nav`
     li:where(:hover, :focus) a{
         font-weight: var(--fw-600);
         background: linear-gradient(50deg, #00C0FD, #E70FAA);
+        background-clip: text;
         -webkit-background-clip: text;
-        -moz-background-clip: text;
         -webkit-text-fill-color: transparent; 
         -moz-text-fill-color: transparent;
     }
@@ -131,7 +131,7 @@ export const Mobile = styled.nav`
     a{
         padding-right: 0.5rem;
         font-family: var(--ff-two);
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         font-weight: var(--fw-400);
         color: var(--clr-one);
         text-transform: uppercase;
@@ -141,13 +141,13 @@ export const Mobile = styled.nav`
     a:hover{
         font-weight: var(--fw-600);
         background: linear-gradient(50deg, #00C0FD, #E70FAA);
+        background-clip: text;
         -webkit-background-clip: text;
-        -moz-background-clip: text;
         -webkit-text-fill-color: transparent; 
         -moz-text-fill-color: transparent;
     }
 
-    @media screen and (max-width:46em){
+    @media screen and (max-width:48em){
         display: block;
     }
 `;

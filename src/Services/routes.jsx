@@ -14,6 +14,7 @@ export default function routes(){
                  <Route path='/contact' element={<Contact />} />
                  <Route path='*' element={<NotFound />} />
               </Routes>
+              <Footer />
           </Router> 
         </>
     );

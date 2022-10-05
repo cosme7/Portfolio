@@ -22,4 +22,8 @@ export const Container = styled.section`
         -webkit-text-fill-color: transparent; 
         -moz-text-fill-color: transparent;
     }
+
+    @media screen and (max-width:48em){
+        --spacer-sm: 1rem 0.5rem 2rem;
+    }
 `;
