@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+
     :root{
         /* Font Weight */
         --fw-700: 700;
@@ -15,6 +16,10 @@ export const GlobalStyle = createGlobalStyle`
         /* Background */  
         --bg-one: #ffffff;
         --bg-two: #171718;
+        --bg-three: #1C1E22;
+        /*  */
+        --spacer-bg: 3rem 0.5rem 4rem;
+        --spacer-md: 1rem 0.5rem 2rem;
     }
 
     *{

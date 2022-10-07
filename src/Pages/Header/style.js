@@ -17,6 +17,7 @@ export const Container = styled.section`
         font-weight: var(--fw-700);
         letter-spacing: 2px;
         background: linear-gradient(50deg, #00C0FD, #E70FAA);
+        background-clip: text;
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent; 
@@ -24,6 +25,6 @@ export const Container = styled.section`
     }
 
     @media screen and (max-width:48em){
-        --spacer-sm: 1rem 0.5rem 2rem;
+        --spacer-sm: 1rem 0.5rem 1rem;
     }
 `;

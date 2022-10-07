@@ -20,6 +20,7 @@ export const Container = styled.section`
         background: linear-gradient(50deg, #E70FAA, #00C0FD);
         background-clip: text;
         -webkit-background-clip: text;
+        -moz-background-clip: text;
         -webkit-text-fill-color: transparent; 
         -moz-text-fill-color: transparent;
     }

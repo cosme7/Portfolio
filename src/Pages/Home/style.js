@@ -1,3 +1,292 @@
 import styled from "styled-components";
 
-export const Container = styled.section``;
+export const Welcome = styled.section`
+    max-width: 1920px;
+    padding: var(--spacer-bg);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(1rem, 1vw, 1.5rem);
+    background-color: var(--bg-two);
+
+    h2{
+        max-width: 15ch;
+        font-size: clamp(2rem, 4vw, 5rem);
+        font-family: var(--ff-two);
+        font-weight: var(--fw-600);
+        line-height: 1.2;
+        letter-spacing: 1px;
+        color: var(--clr-one);
+        text-align: center;
+    }
+
+    span{
+        font-weight: var(--fw-700);
+        color: blueviolet;
+    }
+
+    p{
+        font-size: clamp(1rem, 1.5vw, 2rem);
+        font-family: var(--ff-two);
+        font-weight: var(--fw-400);
+        color: var(--clr-one);
+        text-align: center;
+    }
+
+    @media screen and (max-width:48em){
+        padding: var(--spacer-md);
+    }
+`;
+
+export const BtnBox = styled.div`
+    display: flex;
+    justify-content: center;
+    gap: clamp(1rem, 1vw, 1.5rem);
+    margin-inline: auto;
+
+    button{
+        padding: 0.5em 1em;
+        border-radius: 10px;
+        background-color: blueviolet;
+        text-align: center;
+        cursor: pointer;
+        border: none;
+    }
+
+    a{        
+        font-size: clamp(0.75rem, 1vw, 1.2rem);
+        font-family: var(--ff-two);
+        font-weight: var(--fw-400);
+        color: var(--clr-one);
+        text-decoration: none;
+    }
+
+    button:where(:hover, :focus){
+        outline: 2px solid red;
+    }
+`;
+
+export const About = styled.section`
+    max-width: 1920px;
+    margin-inline: auto;
+    padding: var(--spacer-bg);
+    background-color: var(--bg-two);
+
+    @media screen and (max-width:48em){
+        padding: var(--spacer-md);
+    }
+`;
+
+export const AboutWrapper = styled.div`
+    max-width: 1000px;
+    margin-inline: auto;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1.5px solid #26292D;
+    display: flex;
+    justify-content: space-between;
+    gap: clamp(1rem, 1vw, 1.5rem);
+    background-color: var(--bg-three);
+
+
+    img{
+        max-height: 40vh;
+        border-radius: 8px;
+        border: 4px solid transparent;
+        background: 
+        linear-gradient(50deg , #00C0FD, #E70FAA) padding-box,
+        linear-gradient(50deg , #00C0FD, #E70FAA) border-box;
+    }
+
+    @media screen and (max-width:48em){
+        flex-direction: column;
+        align-items: center;
+    }
+`;
+
+export const AboutBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: clamp(1rem, 1.5vw, 1.5rem);
+
+    h2{
+        font-size: clamp(1.5rem, 2.5vw, 3rem);
+        font-family: var(--ff-two);
+        font-weight: var(--fw-600);
+        line-height: 1.2;
+        letter-spacing: 1px;
+        color: var(--clr-one);
+        text-align: center;
+    }
+
+    span{
+        font-weight: var(--fw-700);
+        color: blueviolet;
+    }  
+
+    p{
+        font-size: clamp(1rem, 1vw, 1.2rem);
+        font-family: var(--ff-two);
+        font-weight: var(--fw-400);
+        letter-spacing: 0.5px;
+        color: var(--clr-one);
+    }
+
+    button{
+        padding: 0.5em 1em;
+        border-radius: 10px;
+        background-color: blueviolet;
+        text-align: center;
+        cursor: pointer;
+        border: none;
+    }
+
+    a{        
+        font-size: clamp(0.75rem, 1vw, 1.2rem);
+        font-family: var(--ff-two);
+        font-weight: var(--fw-400);
+        color: var(--clr-one);
+        text-decoration: none;
+    }
+`;
+
+export const Tech = styled.section`
+    max-width: 1920px;
+    margin-inline: auto;
+    padding: var(--spacer-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(1rem, 1vw, 1.5rem);
+    background-color: var(--bg-two);
+
+    h2{
+        max-width: 15ch;
+        font-size: clamp(2rem, 4vw, 5rem);
+        font-family: var(--ff-two);
+        font-weight: var(--fw-600);
+        line-height: 1.2;
+        letter-spacing: 1px;
+        color: var(--clr-one);
+        text-align: center;
+    }
+
+    span{
+        font-weight: var(--fw-700);
+        color: blueviolet;
+    }
+
+    p{
+        font-size: clamp(1rem, 1.5vw, 2rem);
+        font-family: var(--ff-two);
+        font-weight: var(--fw-400);
+        color: var(--clr-one);
+        text-align: center;
+    }
+
+    figure{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: clamp(1rem, 1vw, 1.5rem);
+    }
+
+    img{
+        width: 80px;
+        aspect-ratio: 1;
+    }
+
+    img:where(:hover, :focus){
+        filter: drop-shadow(0 0 10px var(--bg-one));
+    }
+
+    @media screen and (max-width:48em){
+        padding: var(--spacer-md);
+
+        figure{
+            width: 100%;
+        }
+    }
+`;
+
+export const Projects = styled.section`
+    max-width: 1920px;
+    margin-inline: auto;
+    padding: var(--spacer-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-two);
+
+    > * {
+        margin-bottom: 3rem;
+    }
+
+    h2{
+        font-size: clamp(2rem, 4vw, 5rem);
+        font-family: var(--ff-two);
+        font-weight: var(--fw-600);
+        line-height: 1.2;
+        letter-spacing: 1px;
+        color: var(--clr-one);
+    }
+
+    span{
+        font-weight: var(--fw-700);
+        color: blueviolet;
+    }  
+    
+    figure{
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    figure > * {
+        margin-bottom: 2rem;
+    }
+
+    img{
+        border-radius: 8px;
+        border: 4px solid transparent;
+        background: 
+        linear-gradient(50deg , #00C0FD, #E70FAA) padding-box,
+        linear-gradient(50deg , #00C0FD, #E70FAA) border-box;
+    }
+
+    button{
+        padding: 0.5em 1em;
+        border-radius: 10px;
+        background-color: blueviolet;
+        text-align: center;
+        cursor: pointer;
+        border: none;
+    }
+
+    a{        
+        font-size: clamp(0.75rem, 1vw, 1.2rem);
+        font-family: var(--ff-two);
+        font-weight: var(--fw-400);
+        color: var(--clr-one);
+        text-decoration: none;
+    }
+
+    @media screen and (max-width:48em){
+        padding: var(--spacer-md);
+
+        > * {
+            margin-bottom: 0;
+        }
+
+        h2{
+            margin-bottom: 2rem;
+        }
+
+        figure{
+            width: 100%;
+        }
+    }
+`;
