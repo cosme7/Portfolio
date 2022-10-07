@@ -15,8 +15,8 @@ import * as S from "./style"
 export default function Home() {
     return (
         <>
-        <main id='main_content'>
-            <S.Welcome aria-label='Apresentation'>
+        <main>
+            <S.Welcome aria-label='Apresentation' id='main_content'>
                 <h2>Olá, sou <span>Cosme</span> Front-End Developer</h2>
                 <p>Bem vindo ao meu Portfólio!</p>
                 <S.BtnBox>

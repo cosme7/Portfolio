@@ -48,6 +48,7 @@ export const Skip = styled.a`
         font-weight: var(--fw-700);
         background-color: white;
         color: blueviolet;
+        outline: 2px solid red;
         transform: translateY(0);
     }
 `;

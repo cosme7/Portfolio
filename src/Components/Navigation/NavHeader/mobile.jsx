@@ -5,7 +5,7 @@ import * as S from "./style"
 export default function Mobile({open}){
     return (
         <>
-        <S.Mobile open={open}>
+        <S.Mobile open={open} aria-label='primary-navigation'>
             <ul>
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/projects'>Projects</Link></li>
