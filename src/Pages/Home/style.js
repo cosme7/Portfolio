@@ -60,6 +60,7 @@ export const BtnBox = styled.div`
         font-weight: var(--fw-400);
         color: var(--clr-one);
         text-decoration: none;
+        outline: none;
     }
 
     button:where(:hover, :focus){
@@ -144,12 +145,17 @@ export const AboutBox = styled.div`
         border: none;
     }
 
+    button:where(:hover, :focus){
+        outline: 2px solid red;
+    }
+
     a{        
         font-size: clamp(0.75rem, 1vw, 1.2rem);
         font-family: var(--ff-two);
         font-weight: var(--fw-400);
         color: var(--clr-one);
         text-decoration: none;
+        outline: none;
     }
 `;
 
@@ -266,12 +272,17 @@ export const Projects = styled.section`
         border: none;
     }
 
+    button:where(:hover, :focus){
+        outline: 2px solid red;
+    }
+
     a{        
         font-size: clamp(0.75rem, 1vw, 1.2rem);
         font-family: var(--ff-two);
         font-weight: var(--fw-400);
         color: var(--clr-one);
         text-decoration: none;
+        outline: none;
     }
 
     @media screen and (max-width:48em){

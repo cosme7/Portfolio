@@ -25,6 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     *{
         box-sizing: border-box;
         margin: 0;
+        scroll-behavior: smooth;
         padding: 0;
     }
 

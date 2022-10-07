@@ -28,3 +28,26 @@ export const Container = styled.section`
         --spacer-sm: 1rem 0.5rem 1rem;
     }
 `;
+
+export const Skip = styled.a`
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    font-family: var(--ff-two);
+    font-weight: var(--fw-400);
+    color: white;
+    background-color: blueviolet;
+    position: absolute;
+    left: 2rem;
+    bottom: -2rem;
+    text-decoration: none;
+    transform: translateY(-400%);
+    transition: transform 0.5s ease-in-out;
+
+    :focus{
+        font-weight: var(--fw-700);
+        background-color: white;
+        color: blueviolet;
+        transform: translateY(0);
+    }
+`;

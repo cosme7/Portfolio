@@ -11,6 +11,7 @@ export default function Header() {
         <header>
             <S.Container>
                 <h1>{logo}</h1>
+                <S.Skip href="#main_content" rel="noreferrer">Skip Navigation</S.Skip>
                 <NavHeader />
             </S.Container>
         </header>
