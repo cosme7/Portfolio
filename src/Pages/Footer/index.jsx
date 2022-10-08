@@ -15,7 +15,7 @@ export default function Footer() {
             <S.Container>
                 <h3>{logo}</h3>
                 <NavFooter />
-                <S.Social>
+                <S.Social aria-label='social navigation'>
                     <a href="https://www.linkedin.com/in/cosme-da-silva-leite-08baa3219/" target="_blank" rel="noreferrer">
                         <img src={Linkedin} alt="LinkeDin" title="LinkeDin" />
                     </a>

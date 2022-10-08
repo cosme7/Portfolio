@@ -8,7 +8,7 @@ export default function Mobile({open}){
         <S.Mobile open={open} aria-label='primary-navigation'>
             <ul>
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/projects'>Projects</Link></li>
+                <li><Link to='/projects'>Projetos</Link></li>
                 <li><Link to='/about'>Sobre Mim</Link></li>
                 <li><Link to='/contact'>Contato</Link></li>
             </ul>

@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <>
         <main>
-            <S.Welcome aria-label='Apresentation' id='main_content'>
+            <S.Welcome aria-labelledby='Apresentation' id='main_content'>
                 <h2>Olá, sou <span>Cosme</span> Front-End Developer</h2>
                 <p>Bem vindo ao meu Portfólio!</p>
                 <S.BtnBox>
@@ -24,7 +24,7 @@ export default function Home() {
                     <button><a href="https://drive.google.com/file/d/1-32y4g2PFiOaW5RRRIqXl_3jlFUmDpQQ/view" target="_blank" rel="noreferrer">Currículo</a></button>
                 </S.BtnBox>
             </S.Welcome>  
-            <S.About aria-label='About'>
+            <S.About aria-labelledby='About'>
                 <S.AboutWrapper>
                     <img src={Photo} alt="personal" />
                     <S.AboutBox>
@@ -43,7 +43,7 @@ export default function Home() {
                     </S.AboutBox>
                 </S.AboutWrapper>
             </S.About>
-            <S.Tech aria-label='Tools'>
+            <S.Tech aria-labelledby='Tools'>
                 <h2>Minha <span>Tech Stack</span></h2>
                 <p>Abaixo são às ferramentas que utilizo</p>
                 <figure>
@@ -55,7 +55,7 @@ export default function Home() {
                     <img src={VSCode} alt="VSCode" title='VSCode' />
                 </figure>
             </S.Tech>
-            <S.Projects aria-label='Projects'>
+            <S.Projects aria-labelledby='Projects'>
                 <h2>Alguns <span>Projetos</span></h2>
                 <figure>
                     <img src={Proj01} alt="Harry Potter" title="Harry Potter" />

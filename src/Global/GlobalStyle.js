@@ -20,8 +20,9 @@ export const GlobalStyle = createGlobalStyle`
         /*  */
         --spacer-bg: 3rem 0.5rem 4rem;
         --spacer-md: 1rem 0.5rem 2rem;
-    }
-
+        --spacer-sm: 1rem 0 2rem;
+    } 
+    
     *{
         box-sizing: border-box;
         margin: 0;

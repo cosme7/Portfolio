@@ -44,7 +44,7 @@ export const Skip = styled.a`
     transform: translateY(-400%);
     transition: transform 0.5s ease-in-out;
 
-    :focus{
+    :focus-visible{
         font-weight: var(--fw-700);
         background-color: white;
         color: blueviolet;

@@ -8,7 +8,7 @@ export default function Header() {
 
     return (
         <>
-        <header>
+        <header id='header-box'>
             <S.Container>
                 <h1>{logo}</h1>
                 <S.Skip href="#main_content" rel="noreferrer">Skip Navigation</S.Skip>
