@@ -13,10 +13,12 @@ export const GlobalStyle = createGlobalStyle`
         /* Font Color */
         --clr-one: #ffffff;
         --clr-two: #000000;
+        --clr-three: blueviolet;
         /* Background */  
         --bg-one: #ffffff;
         --bg-two: #171718;
         --bg-three: #1C1E22;
+        --bg-four: blueviolet;
         /*  */
         --spacer-bg: 3rem 0.5rem 4rem;
         --spacer-md: 1rem 0.5rem 2rem;

@@ -1,16 +1,16 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import * as S from "./style"
 import Photo from "../../Assets/about_01.jpg"
 import HTML from "../../Assets/tech_01.svg"
 import CSS from "../../Assets/tech_02.svg"
 import Js from "../../Assets/tech_03.svg"
 import Rect from "../../Assets/tech_04.svg"
-import GitHub from "../../Assets/tech_05_D.svg"
-import VSCode from "../../Assets/tech_06.svg"
+import StlComponent from "../../Assets/tech_05.svg"
+import GitHub from "../../Assets/tech_06_D.svg"
 import Proj01 from "../../Assets/projects react_01.png"
 import Proj02 from "../../Assets/projects css_01.png"
 import Proj03 from "../../Assets/projects react_04.png"
-import * as S from "./style"
 
 export default function Home() {
     return (
@@ -51,8 +51,8 @@ export default function Home() {
                     <img src={CSS} alt="CSS" title='CSS' />
                     <img src={Js} alt="JavaScript" title='JavaScript' />
                     <img src={Rect} alt="React" title='React' />
+                    <img src={StlComponent} alt="Styled-Components" title='Styled-Components' />
                     <img src={GitHub} alt="GitHub" title='GitHub' />
-                    <img src={VSCode} alt="VSCode" title='VSCode' />
                 </figure>
             </S.Tech>
             <S.Projects aria-labelledby='Projects'>

@@ -23,7 +23,7 @@ export const Welcome = styled.section`
 
     span{
         font-weight: var(--fw-700);
-        color: blueviolet;
+        color: var(--clr-three);
     }
 
     p{
@@ -48,7 +48,7 @@ export const BtnBox = styled.div`
     button{
         padding: 0.5em 1em;
         border-radius: 10px;
-        background-color: blueviolet;
+        background-color: var(--bg-four);
         text-align: center;
         cursor: pointer;
         border: none;
@@ -64,7 +64,12 @@ export const BtnBox = styled.div`
     }
 
     button:where(:hover, :focus){
-        outline: 2px solid red;
+        background-color: var(--bg-one);
+    }
+
+    button:where(:hover, :focus) a{
+        font-weight: var(--fw-500);
+        color: var(--clr-three);
     }
 `;
 
@@ -125,7 +130,7 @@ export const AboutBox = styled.div`
 
     span{
         font-weight: var(--fw-700);
-        color: blueviolet;
+        color: var(--clr-three);
     }  
 
     p{
@@ -139,14 +144,10 @@ export const AboutBox = styled.div`
     button{
         padding: 0.5em 1em;
         border-radius: 10px;
-        background-color: blueviolet;
+        background-color: var(--bg-four);
         text-align: center;
         cursor: pointer;
         border: none;
-    }
-
-    button:where(:hover, :focus){
-        outline: 2px solid red;
     }
 
     a{        
@@ -156,6 +157,15 @@ export const AboutBox = styled.div`
         color: var(--clr-one);
         text-decoration: none;
         outline: none;
+    }
+
+    button:where(:hover, :focus){
+        background-color: var(--bg-one);
+    }
+
+    button:where(:hover, :focus) a{
+        font-weight: var(--fw-500);
+        color: var(--clr-three);
     }
 `;
 
@@ -182,7 +192,7 @@ export const Tech = styled.section`
 
     span{
         font-weight: var(--fw-700);
-        color: blueviolet;
+        color: var(--clr-three);
     }
 
     p{
@@ -243,7 +253,7 @@ export const Projects = styled.section`
 
     span{
         font-weight: var(--fw-700);
-        color: blueviolet;
+        color: var(--clr-three);
     }  
     
     figure{
@@ -266,14 +276,10 @@ export const Projects = styled.section`
     button{
         padding: 0.5em 1em;
         border-radius: 10px;
-        background-color: blueviolet;
+        background-color: var(--bg-four);
         text-align: center;
         cursor: pointer;
         border: none;
-    }
-
-    button:where(:hover, :focus){
-        outline: 2px solid red;
     }
 
     a{        
@@ -283,6 +289,15 @@ export const Projects = styled.section`
         color: var(--clr-one);
         text-decoration: none;
         outline: none;
+    }
+
+    button:where(:hover, :focus){
+        background-color: var(--bg-one);
+    }
+
+    button:where(:hover, :focus) a{
+        font-weight: var(--fw-500);
+        color: var(--clr-three);
     }
 
     @media screen and (max-width:48em){

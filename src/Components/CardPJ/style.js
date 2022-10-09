@@ -37,7 +37,7 @@ export const Card = styled.article`
 
     span{
         font-weight: var(--fw-700);
-        color: blueviolet;
+        color: var(--clr-three);
     }
 `;
 

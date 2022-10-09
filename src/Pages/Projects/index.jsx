@@ -1,5 +1,6 @@
 import React from 'react';
 import CardPJ from "../../Components/CardPJ"
+import * as S from "./style"
 import ProjRC01 from "../../Assets/projects react_01.png"
 import ProjRC02 from "../../Assets/projects react_02-CC.png"
 import ProjRC03 from "../../Assets/projects react_03.png"
@@ -15,7 +16,6 @@ import ProjCS07 from "../../Assets/projects css_07.png"
 import ProjCS08 from "../../Assets/projects css_08.png"
 import ProjCS09 from "../../Assets/projects css_09.png"
 import ProjCS10 from "../../Assets/projects css_10.png"
-import * as S from "./style"
 
 export default function Projects() {
     return (
@@ -24,6 +24,13 @@ export default function Projects() {
             <S.Container id='main_content'>
                 <h2>Meus <span>Projetos</span></h2>
                 <S.CardBox aria-label='Projects Contents'>
+                    <CardPJ 
+                    image={ProjRC01} 
+                    title={'ONU PLACEHOLDER'}
+                    description={''} 
+                    tech={'React, Styled-Components'}
+                    live={'#'}
+                    code={'#'}/>
                     <CardPJ 
                     image={ProjRC01} 
                     title={'Harry Potter API'}

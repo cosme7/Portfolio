@@ -7,8 +7,8 @@ export default function routes(){
     return(
         <>
           <Router>
-              <Header />
               <ScrollToTop />  
+              <Header />
               <Routes>
                  <Route path='/' element={<Home />} />
                  <Route path='/projects' element={<Projects />} />
