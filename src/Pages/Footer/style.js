@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    --spacer: 2rem 2rem 3rem;
     max-width: 1920px;
     margin: 0 auto;
-    padding: var(--spacer);
+    padding: var(--spacer-xmd);
     display: grid;
     align-items: center;
     row-gap: clamp(1.5rem, 1.5vw, 2rem);
@@ -26,6 +25,7 @@ export const Container = styled.section`
     }
 
     p{
+        justify-self: flex-start;
         padding-right: 1.5rem;
         font-family: var(--ff-two);
         font-size: clamp(1rem, 1vw, 1.3rem);
@@ -37,27 +37,30 @@ export const Container = styled.section`
     }
 
     @media screen and (max-width:48em){
-        --spacer: 2rem 0.5rem 3rem;
+        padding: var(--spacer-md);
         grid-template-columns: 1fr;
         grid-auto-rows: auto;
         place-items: center;
 
         p{
+            grid-area: 4 / 1;
             padding: 0;
-            text-align: center;
+            justify-self: center;
         }
     }
 `;
 
 export const Social = styled.nav`
-    grid-area: 2 / 1;
+    grid-area: 2 / 2;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-end;
     gap: clamp(1rem, 1.5vw, 2rem);
 
     @media screen and (max-width:48em){
         grid-area: 3 / 1;
+        justify-content: center;
     }
 
     :where(:hover, :focus){

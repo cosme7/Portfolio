@@ -26,7 +26,7 @@ export default function Footer() {
                         <img src={Facebook} alt="Facebook" title="Facebook" />
                     </a>
                 </S.Social>
-                <p>© Todos os Direitos Reservados: Cosme da S. Leite 2022 - Brasil</p>
+                <p>Obrigado por sua visita!</p>
             </S.Container>
         </footer>
         </>

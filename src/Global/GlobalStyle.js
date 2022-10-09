@@ -19,8 +19,9 @@ export const GlobalStyle = createGlobalStyle`
         --bg-two: #171718;
         --bg-three: #1C1E22;
         --bg-four: blueviolet;
-        /*  */
+        /* Padding */
         --spacer-bg: 3rem 0.5rem 4rem;
+        --spacer-xmd: 1rem 2rem;
         --spacer-md: 1rem 0.5rem 2rem;
         --spacer-sm: 1rem 0 2rem;
     } 

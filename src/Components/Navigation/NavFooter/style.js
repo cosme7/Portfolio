@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
+    grid-area: 1 / 2;
 
     @media screen and (max-width:48em){
+        grid-area: 2 / 1;
         width: 100%;
     }
 `;

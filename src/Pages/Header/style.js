@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    --spacer-sm: 1rem 2rem;
     max-width: 1920px;
     margin: 0 auto;
-    padding: var(--spacer-sm);
+    padding: var(--spacer-xmd);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +24,7 @@ export const Container = styled.section`
     }
 
     @media screen and (max-width:48em){
-        --spacer-sm: 1rem 0.5rem 1rem;
+        padding: var(--spacer-md);
     }
 `;
 
@@ -43,12 +42,12 @@ export const Skip = styled.a`
     text-decoration: none;
     transform: translateY(-400%);
     transition: transform 0.5s ease-in-out;
+    outline: none;
 
     :focus-visible{
         font-weight: var(--fw-700);
         background-color: white;
-        color: blueviolet;
-        outline: 2px solid red;
+        color: var(--clr-three);
         transform: translateY(0);
     }
 `;
