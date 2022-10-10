@@ -4,7 +4,7 @@ import * as S from "./style"
 
 export default function Menu(){
 
-    const [open, setOpen] = useState (true)
+    const [open, setOpen] = useState (false)
     const btnRef = useRef()
 
     const toggleMenu = () => {
@@ -16,7 +16,7 @@ export default function Menu(){
         const closeMenu = e => {
             if(e.path[0] !== btnRef.current){
                 console.log(e)
-              setOpen(false)
+              setOpen(!true)
             }
           };
 

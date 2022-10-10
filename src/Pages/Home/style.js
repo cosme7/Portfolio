@@ -10,22 +10,7 @@ export const Welcome = styled.section`
     gap: clamp(1rem, 1vw, 1.5rem);
     background-color: var(--bg-two);
 
-    h2{
-        max-width: 15ch;
-        font-size: clamp(2rem, 4vw, 5rem);
-        font-family: var(--ff-two);
-        font-weight: var(--fw-600);
-        line-height: 1.2;
-        letter-spacing: 1px;
-        color: var(--clr-one);
-        text-align: center;
-    }
-
-    span{
-        font-weight: var(--fw-700);
-        color: var(--clr-three);
-    }
-
+    
     p{
         font-size: clamp(1rem, 1.5vw, 2rem);
         font-family: var(--ff-two);
@@ -44,33 +29,6 @@ export const BtnBox = styled.div`
     justify-content: center;
     gap: clamp(1rem, 1vw, 1.5rem);
     margin-inline: auto;
-
-    button{
-        padding: 0.5em 1em;
-        border-radius: 10px;
-        background-color: var(--bg-four);
-        text-align: center;
-        cursor: pointer;
-        border: none;
-    }
-
-    a{        
-        font-size: clamp(1rem, 1vw, 1.2rem);
-        font-family: var(--ff-two);
-        font-weight: var(--fw-400);
-        color: var(--clr-one);
-        text-decoration: none;
-        outline: none;
-    }
-
-    button:where(:hover, :focus){
-        background-color: var(--bg-one);
-    }
-
-    button:where(:hover, :focus) a{
-        font-weight: var(--fw-500);
-        color: var(--clr-three);
-    }
 `;
 
 export const About = styled.section`
@@ -95,7 +53,6 @@ export const AboutWrapper = styled.div`
     gap: clamp(1rem, 1vw, 1.5rem);
     background-color: var(--bg-three);
 
-
     img{
         max-height: 40vh;
         border-radius: 8px;
@@ -116,22 +73,11 @@ export const AboutBox = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: clamp(1rem, 1.5vw, 1.5rem);
+    gap: clamp(1rem, 1.5vw, 1.5rem); 
 
     h2{
         font-size: clamp(1.5rem, 2.5vw, 3rem);
-        font-family: var(--ff-two);
-        font-weight: var(--fw-600);
-        line-height: 1.2;
-        letter-spacing: 1px;
-        color: var(--clr-one);
-        text-align: center;
     }
-
-    span{
-        font-weight: var(--fw-700);
-        color: var(--clr-three);
-    }  
 
     p{
         font-size: clamp(1rem, 1vw, 1.2rem);
@@ -139,33 +85,6 @@ export const AboutBox = styled.div`
         font-weight: var(--fw-400);
         letter-spacing: 0.5px;
         color: var(--clr-one);
-    }
-
-    button{
-        padding: 0.5em 1em;
-        border-radius: 10px;
-        background-color: var(--bg-four);
-        text-align: center;
-        cursor: pointer;
-        border: none;
-    }
-
-    a{        
-        font-size: clamp(1rem, 1vw, 1.2rem);
-        font-family: var(--ff-two);
-        font-weight: var(--fw-400);
-        color: var(--clr-one);
-        text-decoration: none;
-        outline: none;
-    }
-
-    button:where(:hover, :focus){
-        background-color: var(--bg-one);
-    }
-
-    button:where(:hover, :focus) a{
-        font-weight: var(--fw-500);
-        color: var(--clr-three);
     }
 `;
 
@@ -178,22 +97,6 @@ export const Tech = styled.section`
     align-items: center;
     gap: clamp(1rem, 1vw, 1.5rem);
     background-color: var(--bg-two);
-
-    h2{
-        max-width: 15ch;
-        font-size: clamp(2rem, 4vw, 5rem);
-        font-family: var(--ff-two);
-        font-weight: var(--fw-600);
-        line-height: 1.2;
-        letter-spacing: 1px;
-        color: var(--clr-one);
-        text-align: center;
-    }
-
-    span{
-        font-weight: var(--fw-700);
-        color: var(--clr-three);
-    }
 
     p{
         font-size: clamp(1rem, 1.5vw, 2rem);
@@ -240,21 +143,7 @@ export const Projects = styled.section`
 
     > * {
         margin-bottom: 3rem;
-    }
-
-    h2{
-        font-size: clamp(2rem, 4vw, 5rem);
-        font-family: var(--ff-two);
-        font-weight: var(--fw-600);
-        line-height: 1.2;
-        letter-spacing: 1px;
-        color: var(--clr-one);
-    }
-
-    span{
-        font-weight: var(--fw-700);
-        color: var(--clr-three);
-    }  
+    } 
     
     figure{
         width: 80%;
@@ -271,33 +160,6 @@ export const Projects = styled.section`
         background: 
         linear-gradient(50deg , #00C0FD, #E70FAA) padding-box,
         linear-gradient(50deg , #00C0FD, #E70FAA) border-box;
-    }
-
-    button{
-        padding: 0.5em 1em;
-        border-radius: 10px;
-        background-color: var(--bg-four);
-        text-align: center;
-        cursor: pointer;
-        border: none;
-    }
-
-    a{        
-        font-size: clamp(1rem, 1vw, 1.2rem);
-        font-family: var(--ff-two);
-        font-weight: var(--fw-400);
-        color: var(--clr-one);
-        text-decoration: none;
-        outline: none;
-    }
-
-    button:where(:hover, :focus){
-        background-color: var(--bg-one);
-    }
-
-    button:where(:hover, :focus) a{
-        font-weight: var(--fw-500);
-        color: var(--clr-three);
     }
 
     @media screen and (max-width:48em){

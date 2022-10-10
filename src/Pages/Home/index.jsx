@@ -1,4 +1,6 @@
 import React from 'react';
+import Title from '../../Components/Title';
+import Button from '../../Components/Button'
 import {Link} from "react-router-dom";
 import * as S from "./style"
 import Photo from "../../Assets/about_01.jpg"
@@ -17,18 +19,18 @@ export default function Home() {
         <>
         <main>
             <S.Welcome aria-labelledby='Apresentation' id='main_content'>
-                <h2>Olá, sou <span>Cosme</span> Front-End Developer</h2>
+                <Title name={'Olá, sou '} emphasize={'Cosme'} end={'Front-End Developer'}/>
                 <p>Bem vindo ao meu Portfólio!</p>
                 <S.BtnBox>
-                    <button><Link to='/projects'>Ver Projetos</Link></button>
-                    <button><a href="https://drive.google.com/file/d/1-32y4g2PFiOaW5RRRIqXl_3jlFUmDpQQ/view" target="_blank" rel="noreferrer">Currículo</a></button>
+                    <Link to='/projects'><Button name={'Ver Projetos'}/></Link>
+                    <a href="https://drive.google.com/file/d/1-32y4g2PFiOaW5RRRIqXl_3jlFUmDpQQ/view" target="_blank" rel="noreferrer"><Button name={'Currículo'}/></a>
                 </S.BtnBox>
             </S.Welcome>  
             <S.About aria-labelledby='About'>
                 <S.AboutWrapper>
                     <img src={Photo} alt="personal" />
                     <S.AboutBox>
-                        <h2>Sobre <span>mim</span></h2>
+                        <Title name={'Sobre '} emphasize={'mim'}/>  
                         <p>Sou Desenvolvedor Front End,
                             trabalhando com projetos próprios e
                             educacionais, direcionados à
@@ -39,12 +41,12 @@ export default function Home() {
                             bons conhecimentos em JavaScript,
                             adotando diversos conhecimentos
                             em React.js .</p>
-                        <button><Link to='/about'>Mais Sobre Mim →</Link></button>    
+                        <Link to='/about'><Button name={'Mais Sobre Mim →'}/></Link>   
                     </S.AboutBox>
                 </S.AboutWrapper>
             </S.About>
             <S.Tech aria-labelledby='Tools'>
-                <h2>Minha <span>Tech Stack</span></h2>
+                <Title name={'Minha '} emphasize={'Tech Stack'}/>
                 <p>Abaixo são às ferramentas que utilizo</p>
                 <figure>
                     <img src={HTML} alt="HTML" title='HTML'/>
@@ -56,13 +58,13 @@ export default function Home() {
                 </figure>
             </S.Tech>
             <S.Projects aria-labelledby='Projects'>
-                <h2>Alguns <span>Projetos</span></h2>
+                <Title name={'Alguns '} emphasize={'Projetos'}/>    
                 <figure>
                     <img src={Proj01} alt="Harry Potter" title="Harry Potter" />
                     <img src={Proj02} alt="Site sobre Trends" title="Findtrend" />
                     <img src={Proj03} alt="ToDo List" title="ToDo" />
                 </figure>
-                <button><Link to='/projects'>Ver mais Projetos →</Link></button>
+                <Link to='/projects'><Button name={'Ver mais Projetos →'}/></Link>
             </S.Projects>
         </main>
         </>

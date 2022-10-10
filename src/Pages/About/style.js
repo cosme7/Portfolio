@@ -50,15 +50,6 @@ export const AbouTxt = styled.div`
     align-items: flex-start;
     row-gap: 1rem;
 
-    h2{
-        font-size: clamp(2rem, 4vw, 5rem);
-        font-family: var(--ff-two);
-        font-weight: var(--fw-600);
-        line-height: 1.2;
-        letter-spacing: 1px;
-        color: var(--clr-three);
-    }
-
     p{
         max-width: 55ch;
         font-size: clamp(1rem, 1.2vw, 1.5rem);

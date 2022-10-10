@@ -10,23 +10,6 @@ export const Container = styled.section`
     gap: clamp(2rem, 2vw, 2.5rem);
     background-color: var(--bg-two);
 
-    h2{
-        max-width: 15ch;
-        margin-bottom: 3rem;
-        font-size: clamp(2rem, 4vw, 5rem);
-        font-family: var(--ff-two);
-        font-weight: var(--fw-600);
-        line-height: 1.2;
-        letter-spacing: 1px;
-        color: var(--clr-one);
-        text-align: center;
-    }
-
-    span{
-        font-weight: var(--fw-700);
-        color: blueviolet;
-    }
-
     @media screen and (max-width:48em){
         padding: var(--spacer-sm);
 
@@ -56,7 +39,7 @@ export const Info = styled.div`
     button{
         padding: 0.5em 1.2em;
         border-radius: 10px;
-        background-color: blueviolet;
+        background-color: var(--bg-four);
         text-align: center;
         cursor: pointer;
         border: none;
@@ -72,12 +55,12 @@ export const Info = styled.div`
     }
 
     button:where(:hover, :focus){
-        background-color: white;
-        color: blueviolet;
+        background-color: var(--bg-one);
+        color: var(--clr-three);
     }
 
     button:where(:hover, :focus) a{
         font-weight: var(--fw-700);
-        color: blueviolet;
+        color: var(--clr-three);
     }
 `;

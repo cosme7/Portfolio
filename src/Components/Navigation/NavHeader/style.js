@@ -17,7 +17,7 @@ export const List= styled.ul`
     }
 
     a:where(:hover, :focus){
-        outline: 4px solid blueviolet;
+        outline: 4px solid var(--bg-four);
     }
 
     @media screen and (max-width:48em){

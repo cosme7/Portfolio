@@ -14,23 +14,23 @@ export const GlobalStyle = createGlobalStyle`
         --clr-one: #ffffff;
         --clr-two: #000000;
         --clr-three: blueviolet;
-        /* Background */  
+        /* Background */
         --bg-one: #ffffff;
         --bg-two: #171718;
-        --bg-three: #1C1E22;
+        --bg-three: #1C1E22;  
         --bg-four: blueviolet;
         /* Padding */
         --spacer-bg: 3rem 0.5rem 4rem;
         --spacer-xmd: 1rem 2rem;
         --spacer-md: 1rem 0.5rem 2rem;
         --spacer-sm: 1rem 0 2rem;
-    } 
-    
+    }
+
     *{
         box-sizing: border-box;
         margin: 0;
-        scroll-behavior: smooth;
         padding: 0;
+        scroll-behavior: smooth;
     }
 
     *::before,
@@ -80,3 +80,16 @@ export const GlobalStyle = createGlobalStyle`
         }
     }
 `;
+
+// export const LightTheme = createGlobalStyle`
+
+//     :root{
+//         /* Font Color */
+//         --clr-one: #ffffff;
+//         --clr-two: #000000;
+//         /* Background */  
+//         --bg-one: #ffffff;
+//         --bg-two: #171718;
+//         --bg-three: #1C1E22;
+//     }
+// `;

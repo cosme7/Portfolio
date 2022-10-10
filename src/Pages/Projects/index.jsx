@@ -1,5 +1,7 @@
 import React from 'react';
 import CardPJ from "../../Components/CardPJ"
+import Title from '../../Components/Title';
+import Button from '../../Components/Button'
 import * as S from "./style"
 import ProjRC01 from "../../Assets/projects react_01.png"
 import ProjRC02 from "../../Assets/projects react_02-CC.png"
@@ -22,7 +24,7 @@ export default function Projects() {
         <>
         <main>
             <S.Container id='main_content'>
-                <h2>Meus <span>Projetos</span></h2>
+                <Title name={'Meus '} emphasize={'Projetos'}/>  
                 <S.CardBox aria-label='Projects Contents'>
                     <CardPJ 
                     image={ProjRC01} 
@@ -138,7 +140,7 @@ export default function Projects() {
                     code={'https://github.com/cosme7/Star-Wars'}/>
                 </S.CardBox>
                 <S.Info>
-                    <button aria-label='return-top'><a href='#header-box' rel="noreferrer">↑</a></button>
+                    <a href='#header-box' rel="noreferrer"><Button aria-label='return-top' name={'↑'}/></a>
                 </S.Info>
             </S.Container>
         </main>  
