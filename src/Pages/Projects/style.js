@@ -35,32 +35,4 @@ export const Info = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-
-    button{
-        padding: 0.5em 1.2em;
-        border-radius: 10px;
-        background-color: var(--bg-four);
-        text-align: center;
-        cursor: pointer;
-        border: none;
-    }
-
-    a{        
-        font-size: clamp(1rem, 1.5vw, 1.5rem);
-        font-family: var(--ff-two);
-        font-weight: var(--fw-400);
-        color: var(--clr-one);
-        text-decoration: none;
-        outline: none;
-    }
-
-    button:where(:hover, :focus){
-        background-color: var(--bg-one);
-        color: var(--clr-three);
-    }
-
-    button:where(:hover, :focus) a{
-        font-weight: var(--fw-700);
-        color: var(--clr-three);
-    }
 `;

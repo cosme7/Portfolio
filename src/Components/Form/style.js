@@ -62,16 +62,17 @@ export const Form = styled.form`
         font-family: var(--ff-two);
         font-weight: var(--fw-400);
         background-color: var(--bg-four);
-        color: var(--clr-one);
+        color: var(--clr-btn);
         cursor: pointer;
         border: none;
         outline: none;
     }
 
     input[type="submit"]:where(:hover, :focus){
+        background-color: var(--clr-btn);
         font-weight: var(--fw-700);
-        background-color: var(--bg-one);
-        color: var(--clr-three);
+        color: var(--bg-four);
+        outline: 2px solid var(--bg-four);
     }
 
     @media screen and (max-width:48em){

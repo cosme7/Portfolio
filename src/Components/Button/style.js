@@ -6,16 +6,18 @@ export const Btn = styled.button`
     font-size: clamp(1rem, 1vw, 1.2rem);
     font-family: var(--ff-two);
     font-weight: var(--fw-400);
-    background-color: var(--bg-four);;
-    color: var(--clr-one);
+    background-color: var(--bg-four);
+    color: var(--clr-btn);
     outline: none; 
     border: none;
     cursor: pointer;
     text-decoration: none;
+    transition: none;
 
     :where(:hover, :focus){
-        background-color: var(--bg-one);
+        background-color: var(--clr-btn);
         font-weight: var(--fw-500);
-        color: var(--clr-three);
+        color: var(--bg-four);
+        outline: 2px solid var(--bg-four);
     }
 `;

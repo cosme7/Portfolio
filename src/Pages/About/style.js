@@ -58,33 +58,6 @@ export const AbouTxt = styled.div`
         color: var(--clr-one);
     }
 
-    button{
-        padding: 0.5em 1em;
-        border-radius: 10px;
-        background-color: var(--bg-four);
-        text-align: center;
-        cursor: pointer;
-        border: none;
-    }
-
-    a{        
-        font-size: clamp(1rem, 1vw, 1.2rem);
-        font-family: var(--ff-two);
-        font-weight: var(--fw-400);
-        color: var(--clr-one);
-        text-decoration: none;
-        outline: none;
-    }
-
-    button:where(:hover, :focus){
-        background-color: var(--bg-one);
-    }
-
-    button:where(:hover, :focus) a{
-        font-weight: var(--fw-500);
-        color: var(--clr-three);
-    }
-
     @media screen and (max-width:48em){
         align-items: center;
 

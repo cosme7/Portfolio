@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavHeader} from "../../Components/index"
+import Nav from './navigation'
 import * as S from "./style";
 
 export default function Header() {
@@ -12,7 +12,7 @@ export default function Header() {
             <S.Container>
                 <h1>{logo}</h1>
                 <S.Skip href="#main_content" rel="noreferrer">Skip Navigation</S.Skip>
-                <NavHeader />
+                <Nav />
             </S.Container>
         </header>
         </>

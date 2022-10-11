@@ -13,6 +13,7 @@ export const Card_About = styled.article`
     img{
         width: 80px;
         aspect-ratio: 1;
+        transition: transform 0.4s ease-in-out;
     }
 
     h3{
@@ -34,12 +35,11 @@ export const Card_About = styled.article`
     }
 
     :where(:hover, :focus){
-        background-color: #F2F4F1;
+        background-color: var(--bg-one);
     }
 
     :where(:hover, :focus) img{
-        border-radius: 8px;
-        background-color: var(--bg-two);
+        transform: scale(1.1);
     }
 
     :where(:hover, :focus) p{

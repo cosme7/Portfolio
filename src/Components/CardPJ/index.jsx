@@ -1,19 +1,23 @@
 import React from 'react';
+import data from './info';
 import * as S from "./style";
 
-export default function CardPJ({image, title, description, tech, live, code}) {
+export default function CardPJ() {
+
     return (
         <>
-            <S.Card>
-                <img src={image} alt={title} title={title}/>
-                <h3>{title}</h3>
-                <p>{description}</p>
-                <p>Tech's: <span>{tech}</span></p>
+        {data.map ((item, index) => (
+            <S.Card key={index}>
+                <img src={item.img} alt={item.title} title={item.title} />
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                <p>Tech's: <span>{item.tech}</span></p>
                 <S.BtnBox>
-                    <button aria-labelledby='live-site'><a href={live} target="_blank" rel="noreferrer">Live Site →</a></button>
-                    <button aria-labelledby='site-code'><a href={code} target="_blank" rel="noreferrer">GitHub →</a></button>
+                    <button><a href={item.live} target="_blank" rel="noreferrer">Live Site →</a></button>
+                    <button><a href={item.code} target="_blank" rel="noreferrer">GitHub →</a></button>
                 </S.BtnBox>
             </S.Card>
+        ))}
         </>
     );
 }

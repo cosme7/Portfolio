@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavFooter} from "../../Components/index"
+import Nav from "./navigation"
 import * as S from "./style";
 import Linkedin from "../../Assets/footer_01.png"
 import Github from "../../Assets/footer_02.png"
@@ -14,7 +14,7 @@ export default function Footer() {
         <footer>
             <S.Container>
                 <h3>{logo}</h3>
-                <NavFooter />
+                <Nav />
                 <S.Social aria-label='social navigation'>
                     <a href="https://www.linkedin.com/in/cosme-da-silva-leite-08baa3219/" target="_blank" rel="noreferrer">
                         <img src={Linkedin} alt="LinkeDin" title="LinkeDin" />

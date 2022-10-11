@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom"
-import * as S from "./style"
+import * as S from "./style";
 
-export default function Mobile({open}){
+export default function mobile({open}){
     return (
         <>
         <S.Mobile open={open} aria-label='primary-navigation'>

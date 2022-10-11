@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
 import Mobile from "./mobile"
-import * as S from "./style"
+import * as S from "./style";
 
 export default function Menu(){
 
@@ -15,7 +15,6 @@ export default function Menu(){
 
         const closeMenu = e => {
             if(e.path[0] !== btnRef.current){
-                console.log(e)
               setOpen(!true)
             }
           };

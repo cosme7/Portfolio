@@ -9,7 +9,6 @@ export const Welcome = styled.section`
     align-items: center;
     gap: clamp(1rem, 1vw, 1.5rem);
     background-color: var(--bg-two);
-
     
     p{
         font-size: clamp(1rem, 1.5vw, 2rem);
@@ -117,10 +116,11 @@ export const Tech = styled.section`
     img{
         width: 80px;
         aspect-ratio: 1;
+        transition: transform 0.4s ease-in-out;
     }
 
     img:where(:hover, :focus){
-        filter: drop-shadow(0 0 10px var(--bg-one));
+        transform: scale(0.95);
     }
 
     @media screen and (max-width:48em){
