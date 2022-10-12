@@ -1,3 +1,4 @@
+import ProjRC00 from "../../Assets/projects react_00.png";
 import ProjRC01 from "../../Assets/projects react_01.png";
 import ProjRC02 from "../../Assets/projects react_02-CC.png";
 import ProjRC03 from "../../Assets/projects react_03.png";
@@ -13,15 +14,17 @@ import ProjCS07 from "../../Assets/projects css_07.png";
 import ProjCS08 from "../../Assets/projects css_08.png";
 import ProjCS09 from "../../Assets/projects css_09.png";
 import ProjCS10 from "../../Assets/projects css_10.png";
+import ProjCS11 from "../../Assets/projects css_11.png";
+import ProjCS12 from "../../Assets/projects css_12.png";
 
 const data = [
   {
-    img: ProjRC01,
-    title: "ONU PLACEHOLDER",
-    description: "ONU PLACEHOLDER",
-    tech: "ONU PLACEHOLDER",
-    live: "google.com.br",
-    code: "google.com.br",
+    img: ProjRC00,
+    title: "Onu Desen. Sustentável",
+    description: "Desafio proposto pelo o #VaiNaWeb para estudo utilizando React-Modal (Lib) ou fazendo na mão, estilização foi livre.",
+    tech: "React, Styled-Components",
+    live: "https://onu-csl.netlify.app/",
+    code: "https://github.com/cosme7/Onu_Clone",
   },
   {
     img: ProjRC01,
@@ -144,7 +147,7 @@ const data = [
     img: ProjCS09,
     title: "Crespos",
     description:
-      "Desafio proposto pelo o #VaiNaWeb para estudo, uso pesado de position, e só tinhamos permissão de usar flexbox.",
+      "Desafio Final do primeiro Módulo do #VainaWeb, uso pesado de position, e só tinhamos permissão de usar flexbox.",
     tech: "HTML, CSS",
     live: "https://cosme7.github.io/Crespos/",
     code: "https://github.com/cosme7/Crespos",
@@ -153,10 +156,28 @@ const data = [
     img: ProjCS10,
     title: "Star Wars",
     description:
-      "Desafio proposto pelo o #VaiNaWeb para estudo, uso pesado de position, com animações nos cards, e button dá main.",
+      "Desafio Final do primeiro Módulo do #VainaWeb, uso pesado de position, com animações nos cards, e button dá main.",
     tech: "HTML, CSS",
     live: "https://cosme7.github.io/Star-Wars/",
     code: "https://github.com/cosme7/Star-Wars",
+  },
+  {
+    img: ProjCS11,
+    title: "Portflow",
+    description:
+      "Desafio Final do primeiro Módulo do #VainaWeb, o mais tranquilo dos 3, única parte enjoada foi a ordem no mobile.",
+    tech: "HTML, CSS",
+    live: "https://cosme7.github.io/Portflow/",
+    code: "https://github.com/cosme7/Portflow",
+  },
+  {
+    img: ProjCS12,
+    title: "Selfcare",
+    description:
+      "Template que utilizei para estudos de CSS, o site se encontra no #DevChallenge caso queira treinar o seu CSS é uma boa.",
+    tech: "HTML, CSS",
+    live: "https://cosme7.github.io/Selfcare-DevChallenge/",
+    code: "https://github.com/cosme7/Selfcare-DevChallenge",
   },
 ];
 
