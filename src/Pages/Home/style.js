@@ -46,14 +46,14 @@ export const AboutWrapper = styled.div`
     margin-inline: auto;
     padding: 1rem;
     border-radius: 8px;
-    border: 1.5px solid #26292D;
+    border: 1.5px solid var(--bg-four);
     display: flex;
     justify-content: space-between;
     gap: clamp(1rem, 1vw, 1.5rem);
     background-color: var(--bg-three);
 
     img{
-        max-height: 40vh;
+        height: clamp(300px, 25vw, 500px);
         border-radius: 8px;
         border: 4px solid transparent;
         background: 

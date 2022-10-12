@@ -90,18 +90,21 @@ export const List= styled.ul`
     gap: clamp(1rem, 2vw, 3rem);
     list-style: none;
 
-    a{
+    li{
         padding: 1rem 1.5rem;
         font-family: var(--ff-two);
         font-size: clamp(1rem, 1.05vw, 1.5rem);
         font-weight: var(--fw-400);
         color: var(--clr-one);
         text-transform: uppercase;
-        text-decoration: none;
     }
 
-    a:where(:hover, :focus){
+    li:where(:hover, :focus){
         outline: 4px solid var(--bg-four);
+    }
+
+    a{
+        text-decoration: none;
     }
 
     @media screen and (max-width:48em){
@@ -111,24 +114,26 @@ export const List= styled.ul`
         li{
             width: 100%;
             padding-block: 0.5rem;
-            border-radius: 5px;
             text-align: center;
+            transition: none;
         }
 
-        li:where(:hover, :focus){
+        a:where(:hover, :focus){
             background-color: var(--bg-one);
         }
 
-        li:where(:hover, :focus) a{
+        a:where(:hover, :focus) li{
             font-weight: var(--fw-600);
             color: var(--clr-two);
         }
 
         a{
             width: 100%;
+            border-radius: 5px;
+            transition: none;
         }
 
-        a:where(:hover, :focus){
+        li:where(:hover, :focus){
             outline: none;
         }
     }

@@ -7,11 +7,13 @@ import * as S from "./style"
 export default function NotFound() {
     return (
         <>
-        <S.Container>
-            <img src={ErroPg} alt="Error" title="Error"/>
-            <p>Página que você digitou não existe ou deu erro desculpe!</p>
-            <Link to='/'><Button name={'Retornar a Home'}/></Link>
-        </S.Container>   
+        <main>
+            <S.Container id='main_content'>
+                <img src={ErroPg} alt="Error" title="Error"/>
+                <p>Página que você digitou não existe ou deu erro desculpe!</p>
+                <Link to='/'><Button name={'Retornar a Home'}/></Link>
+            </S.Container>   
+        </main>
         </>
     );
 }

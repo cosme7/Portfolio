@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
     padding: var(--spacer-md);
     margin-inline: auto;
     border-radius: 8px;
-    border: 1.5px solid #26292D;
+    border: 1.5px solid var(--bg-four);
     display: flex;
     justify-content: space-between;
     column-gap: 1rem;

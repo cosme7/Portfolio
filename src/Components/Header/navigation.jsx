@@ -7,12 +7,12 @@ export default function navigation(){
     return (
         <>
         <Menu />
-        <nav aria-label='primary-navigation'>
+        <nav aria-label='header navigation'>
             <S.List>
-                <li><Link to='/'>Home</Link></li>
-                <li><Link to='/projects'>Projetos</Link></li>
-                <li><Link to='/about'>Sobre Mim</Link></li>
-                <li><Link to='/contact'>Contato</Link></li>
+                <Link to='/'><li>Home</li></Link>
+                <Link to='/projects'><li>Projetos</li></Link>
+                <Link to='/about'><li>Sobre Mim</li></Link>
+                <Link to='/contact'><li>Contato</li></Link>
             </S.List>
         </nav>
         </>

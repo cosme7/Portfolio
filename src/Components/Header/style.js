@@ -144,7 +144,7 @@ export const Icon = styled.span`
 export const Mobile = styled.nav`
     width: 60%;
     min-height: 100vh;
-    padding: 5rem 0.5rem 0 0;
+    padding: 5rem 0.5rem 0;
     display: none;
     background-color: var(--bg-two);
     position: fixed;
@@ -157,46 +157,35 @@ export const Mobile = styled.nav`
     ul{
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: 1.5rem;
         list-style: none;
     }
 
     li{
-        width: 100%;
-        padding-block: 0.5rem;
-        text-align: right;
-    }
-
-    li:where(:hover, :focus){
-        background-color: var(--bg-one);
-    }
-
-    li:where(:hover, :focus) a{
-        font-weight: var(--fw-600);
-        background: linear-gradient(50deg, #00C0FD, #E70FAA);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; 
-        -moz-text-fill-color: transparent;
-    }
-
-    a{
-        padding-right: 0.5rem;
+        padding: .5rem .5rem .5rem 0;
         font-family: var(--ff-two);
-        font-size: 1.25rem;
+        font-size: clamp(1rem, 1.05vw, 1.5rem);
         font-weight: var(--fw-400);
         color: var(--clr-one);
         text-transform: uppercase;
+        transition: none;
+        text-align: right;
+    }
+
+    a{
+        width: 100%;
+        border-radius: 5px;
+        transition: none;
         text-decoration: none;
     }
 
-    a:hover{
-        font-weight: var(--fw-600);
-        background: linear-gradient(50deg, #00C0FD, #E70FAA);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; 
-        -moz-text-fill-color: transparent;
+    a:where(:hover, :focus){
+        background-color: var(--bg-one);
+    }
+
+    a:where(:hover, :focus) li{
+        font-weight: var(--fw-700);
+        color: var(--clr-two);
     }
 
     @media screen and (max-width:48em){

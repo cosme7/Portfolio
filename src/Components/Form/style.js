@@ -4,7 +4,7 @@ export const Form = styled.form`
     width: 25%;
     padding: 1rem 1.5rem;
     border-radius: 8px;
-    border: 1.5px solid #26292D;
+    border: 1.5px solid var(--bg-four);
     display: flex;
     flex-direction: column;
     row-gap: 0.5rem;
@@ -66,6 +66,7 @@ export const Form = styled.form`
         cursor: pointer;
         border: none;
         outline: none;
+        transition: none;
     }
 
     input[type="submit"]:where(:hover, :focus){
