@@ -57,8 +57,8 @@ export const AboutWrapper = styled.div`
         border-radius: 8px;
         border: 4px solid transparent;
         background: 
-        linear-gradient(50deg , #00C0FD, #E70FAA) padding-box,
-        linear-gradient(50deg , #00C0FD, #E70FAA) border-box;
+        linear-gradient(50deg , crimson, var(--bg-four)) padding-box,
+        linear-gradient(50deg , crimson, var(--bg-four)) border-box;
     }
 
     @media screen and (max-width:48em){
@@ -158,8 +158,8 @@ export const Projects = styled.section`
         border-radius: 8px;
         border: 4px solid transparent;
         background: 
-        linear-gradient(50deg , #00C0FD, #E70FAA) padding-box,
-        linear-gradient(50deg , #00C0FD, #E70FAA) border-box;
+        linear-gradient(50deg , crimson, var(--bg-four)) padding-box,
+        linear-gradient(50deg , crimson, var(--bg-four)) border-box;
     }
 
     @media screen and (max-width:48em){

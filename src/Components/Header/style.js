@@ -10,21 +10,17 @@ export const Container = styled.section`
     background-color: var(--bg-two);
     position: relative;
 
-    h1{
-        font-size: clamp(2rem, 3vw, 3.5rem);
-        font-family: var(--ff-one);
-        font-weight: var(--fw-700);
-        letter-spacing: 2px;
-        background: linear-gradient(50deg, #00C0FD, #E70FAA);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent; 
-        -moz-text-fill-color: transparent;
+    img{
+        width: 80px;
+        aspect-ratio: 1;
     }
 
     @media screen and (max-width:48em){
         padding: var(--spacer-md);
+
+        img{
+            width: 55px;
+        }
     }
 `;
 
@@ -144,7 +140,7 @@ export const Icon = styled.span`
 export const Mobile = styled.nav`
     width: 60%;
     min-height: 100vh;
-    padding: 5rem 0.5rem 0;
+    padding: 5rem 0.5rem 1rem;
     display: none;
     background-color: var(--bg-two);
     position: fixed;
@@ -188,7 +184,15 @@ export const Mobile = styled.nav`
         color: var(--clr-two);
     }
 
+    img{
+        width: 50px;
+        margin: auto auto 0;
+        aspect-ratio: 1;
+    }
+
     @media screen and (max-width:48em){
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 `;

@@ -27,8 +27,8 @@ export const Wrapper = styled.div`
         border-radius: 8px;
         border: 4px solid transparent;
         background: 
-        linear-gradient(50deg , #00C0FD, #E70FAA) padding-box,
-        linear-gradient(50deg , #00C0FD, #E70FAA) border-box;
+        linear-gradient(50deg , crimson, var(--bg-four)) padding-box,
+        linear-gradient(50deg , crimson, var(--bg-four)) border-box;
     }
 
     @media screen and (max-width:48em){

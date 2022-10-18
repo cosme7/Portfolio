@@ -10,18 +10,9 @@ export const Container = styled.section`
     grid-template-columns: 1fr 3fr;
     background-color: var(--bg-two);
 
-    h3{
-        max-width: 7ch;
-        font-size: clamp(1.5rem, 2vw, 2.5rem);
-        font-family: var(--ff-one);
-        font-weight: var(--fw-700);
-        letter-spacing: 2px;
-        background: linear-gradient(50deg, #E70FAA, #00C0FD);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent; 
-        -moz-text-fill-color: transparent;
+    img{
+        width: 70px;
+        aspect-ratio: 1;
     }
 
     p{
@@ -41,6 +32,10 @@ export const Container = styled.section`
         grid-template-columns: 1fr;
         grid-auto-rows: auto;
         place-items: center;
+
+        img{
+            width: 50px;
+        }
 
         p{
             grid-area: 4 / 1;

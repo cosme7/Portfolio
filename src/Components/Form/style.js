@@ -27,7 +27,7 @@ export const Form = styled.form`
         min-height: 6vh;
         padding-inline: 1rem;
         border-radius: 8px;
-        border: 1px solid #A0A0A1;
+        border: 1px solid var(--bg-four);
         font-size: clamp(1rem, 1vw, 1.2rem);
         background-color: var(--bg-three);
         color: var(--clr-one);
@@ -44,7 +44,7 @@ export const Form = styled.form`
         margin-bottom: 1rem;
         padding: 0.5rem 1rem;
         border-radius: 8px;
-        border: 1px solid #A0A0A1;
+        border: 1px solid var(--bg-four);
         font-size: clamp(1rem, 1vw, 1.2rem);
         color: var(--clr-one);
         background-color: var(--bg-three);

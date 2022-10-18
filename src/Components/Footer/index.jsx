@@ -1,19 +1,18 @@
 import React from 'react';
 import Nav from "./navigation"
 import * as S from "./style";
+import Logo from '../../Assets/logo.png'
 import Linkedin from "../../Assets/footer_01.png"
 import Github from "../../Assets/footer_02.png"
 import Facebook from "../../Assets/footer_03.png"
 
 export default function Footer() {
 
-    const logo = '< CSL />'
-
     return (
         <>
         <footer>
             <S.Container>
-                <h3>{logo}</h3>
+                <img src={Logo} alt="Logo" />
                 <Nav />
                 <S.Social aria-label='social navigation'>
                     <a href="https://www.linkedin.com/in/cosme-da-silva-leite-08baa3219/" target="_blank" rel="noreferrer">

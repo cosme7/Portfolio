@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
         /* Font Color */
         --clr-one: ${({theme}) => theme.textOne};
         --clr-two: ${({theme}) => theme.textTwo};
-        --clr-three: blueviolet;
+        --clr-three: ${({theme}) => theme.textThree};
         --clr-btn: white;
         /* Background */
         --bg-one: ${({theme}) => theme.bgThree};
@@ -95,6 +95,7 @@ export const GlobalStyle = createGlobalStyle`
 export const lightTheme = {
     textOne: '#363537',
     textTwo: '#ffffff',
+    textThree: 'crimson',
     bgOne: '#ffffff',
     bgTwo: '#F2F4F1',
     bgThree: '#171718',
@@ -105,6 +106,7 @@ export const lightTheme = {
 export const darkTheme = {
     textOne: '#FAFAFA',
     textTwo: '#171718',
+    textThree: 'blueviolet',
     bgOne: '#171718',
     bgTwo: '#1C1E22',
     bgThree: '#ffffff',

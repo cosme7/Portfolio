@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Card = styled.article`
     max-width: 500px;
     padding: 0.5rem 0.5rem 1rem;
-    border: 1.5px solid #26292D;
+    border: 1.5px solid var(--bg-four);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ export const BtnBox = styled.div`
         padding: 0.5em 1em;
         border-width: 5px;
         border-style: solid;
-        border-image: linear-gradient(50deg , #00C0FD, #E70FAA) 1;
+        border-image: linear-gradient(50deg , crimson, var(--bg-four)) 1;
         background-color: var(--bg-two);
         cursor: pointer;
     }

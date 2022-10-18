@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../../Assets/logo.png'
 import {Link} from "react-router-dom"
 import * as S from "./style";
 
@@ -12,6 +13,7 @@ export default function mobile({open}){
                 <Link to='/about'><li>Sobre Mim</li></Link>
                 <Link to='/contact'><li>Contato</li></Link>
             </ul>
+        <img src={Logo} alt="Logo" />    
         </S.Mobile>
         </>
     );

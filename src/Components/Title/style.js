@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Title = styled.h2`
     max-width: 15ch;
-    font-size: clamp(1.5rem, 4vw, 5rem);
+    font-size: clamp(2rem, 4vw, 5rem);
     font-family: var(--ff-two);
     font-weight: var(--fw-600);
     line-height: 1.2;
