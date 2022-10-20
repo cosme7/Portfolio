@@ -12,7 +12,7 @@ export const Container = styled.section`
 `;
 
 export const Wrapper = styled.div`
-    width: 90%;
+    width: 80%;
     padding: var(--spacer-md);
     margin-inline: auto;
     border-radius: 8px;
@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
     background-color: var(--bg-three);
 
     img{
-        width: 40%;
+        width: 25%;
         border-radius: 8px;
         border: 4px solid transparent;
         background: 
@@ -36,9 +36,11 @@ export const Wrapper = styled.div`
         flex-direction: column;
         align-items: center;
         row-gap: 1rem;
+    }
 
+    @media screen and (max-width:30em){
         img{
-            width: 1005px;
+            width: 100%;
         }
     }
 `;

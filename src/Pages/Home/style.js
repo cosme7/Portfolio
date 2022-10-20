@@ -8,8 +8,24 @@ export const Welcome = styled.section`
     flex-direction: column;
     align-items: center;
     gap: clamp(1rem, 1vw, 1.5rem);
-    background-color: var(--bg-two);
-    
+    background-color: var(--bg-two);  
+
+    h1{
+        max-width: 15ch;
+        font-size: clamp(2rem, 4vw, 5rem);
+        font-family: var(--ff-two);
+        font-weight: var(--fw-600);
+        line-height: 1.2;
+        letter-spacing: 1px;
+        color: var(--clr-one);
+        text-align: center;
+    }
+
+    span{
+        font-weight: var(--fw-700);
+        color: var(--clr-three);
+    }  
+
     p{
         font-size: clamp(1rem, 1.5vw, 2rem);
         font-family: var(--ff-two);
@@ -53,7 +69,7 @@ export const AboutWrapper = styled.div`
     background-color: var(--bg-three);
 
     img{
-        height: clamp(300px, 25vw, 500px);
+        width: 40%;
         border-radius: 8px;
         border: 4px solid transparent;
         background: 
@@ -64,6 +80,12 @@ export const AboutWrapper = styled.div`
     @media screen and (max-width:48em){
         flex-direction: column;
         align-items: center;
+    }
+
+    @media screen and (max-width:30em){
+        img{
+            width: 100%;
+        }
     }
 `;
 

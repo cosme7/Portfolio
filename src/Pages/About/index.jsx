@@ -1,5 +1,5 @@
 import React from 'react';
-import Photo from "../../Assets/about_01.jpg"
+import Photo from "../../Assets/about_02.jpeg"
 import CardAbout from '../../Components/CardAbout';
 import Title from '../../Components/Title';
 import Button from '../../Components/Button';
@@ -12,7 +12,7 @@ export default function About() {
         <main>
             <S.Container id='main_content'>
                 <S.Wrapper aria-labelledby='about-me'>
-                    <img src={Photo} alt="personal" title="personal"/>
+                    <img src={Photo} alt="personal" title="Indicação dá Tulani"/>
                     <S.AbouTxt>
                         <Title emphasize={'Cosme da S. Leite'}/>  
                         <p>Comecei a estudar Front-End no início desse ano (2022) e me apaixonei, atualmente moro em Bangu - Rio de Janeiro.
