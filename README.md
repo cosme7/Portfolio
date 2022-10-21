@@ -39,7 +39,7 @@
 <li>Obrigado especial a Luciana Lima que deu uma melhorada nos textos :relaxed:.</li>
 
 <h4>- Dark Mode</h4>
-<p>https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/</p>
+<li>https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/</li>
 
 <h2>Link para o Site: https://csl-portfolio.netlify.app/</h2>
 
