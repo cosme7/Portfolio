@@ -38,6 +38,9 @@
 <h4>- Texto:</h4> 
 <li>Obrigado especial a Luciana Lima que deu uma melhorada nos textos :relaxed:.</li>
 
-<h2>Link: https://csl-portfolio.netlify.app/</h2>
+<h4>- Dark Mode</h4>
+<p>https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/</p>
+
+<h2>Link para o Site: https://csl-portfolio.netlify.app/</h2>
 
 <a href="https://www.linkedin.com/in/cosme-da-silva-leite-08baa3219/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
