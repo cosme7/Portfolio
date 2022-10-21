@@ -48,15 +48,16 @@ export const BtnBox = styled.div`
 
     button{
         padding: 0.5em 1em;
-        border-width: 5px;
-        border-style: solid;
+        border: 5px solid;
         border-image: linear-gradient(50deg , crimson, var(--bg-four)) 1;
         background-color: var(--bg-two);
         cursor: pointer;
+        transition: transform 0.2s ease-in-out;
     }
 
     button:where(:hover, :focus){
         outline: 2px solid red;
+        transform: scale(0.95);
     }
 
     a{        

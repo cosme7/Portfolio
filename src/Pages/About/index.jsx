@@ -15,10 +15,16 @@ export default function About() {
                     <img src={Photo} alt="personal" title="Indicação dá Tulani"/>
                     <S.AbouTxt>
                         <Title emphasize={'Cosme da S. Leite'}/>  
-                        <p>Comecei a estudar Front-End no início desse ano (2022) e me apaixonei, atualmente moro em Bangu - Rio de Janeiro.
-                            Gosto da ideia de trabalhar em equipe, acho que é uma forma de me conectar com novas habilidades e oferecer meu conhecimento ao time de forma a melhorar a produtividade no desenvolvimento de um produto digital. Gosto de descobrir coisas novas diariamente e me tornar um ativo valioso, por isso estou constantemente aprendendo e pesquisando.
-                            Procuro buscar o máximo de Feedback possível sobre os projetos, de forma a melhorar e poder fazer projetos que sejam acessíveis e funcionais.
-                            Vamos conversar!</p>
+                        <p>Comecei a estudar Front-End no início desse ano (2022) 
+                            e me apaixonei, atualmente moro em Bangu - Rio de Janeiro. 
+                            </p>
+                            <p>Gosto de trabalhar em equipe, pois é um meio de me conectar 
+                            com novas habilidades e oferecer meu conhecimento ao time 
+                            de forma a melhorar a produtividade no desenvolvimento de 
+                            um produto digital. Sou proativo, estou constantemente 
+                            pesquisando e aprendendo. Busco o máximo de Feedback 
+                            possível sobre os projetos, para assim melhorá-los e 
+                            torná-los acessíveis e funcionais. Vamos conversar!</p>
                         <Link to='/contact'><Button name={'Contato →'}/></Link>   
                     </S.AbouTxt>
                 </S.Wrapper>

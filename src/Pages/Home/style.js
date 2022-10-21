@@ -84,7 +84,7 @@ export const AboutWrapper = styled.div`
 
     @media screen and (max-width:30em){
         img{
-            width: 100%;
+            width: 70%;
         }
     }
 `;

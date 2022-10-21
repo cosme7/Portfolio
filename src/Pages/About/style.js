@@ -40,7 +40,7 @@ export const Wrapper = styled.div`
 
     @media screen and (max-width:30em){
         img{
-            width: 100%;
+            width: 70%;
         }
     }
 `;
@@ -48,9 +48,9 @@ export const Wrapper = styled.div`
 export const AbouTxt = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
-    row-gap: 1rem;
+    row-gap: clamp(1rem, 2vw, 2.5rem);
 
     p{
         max-width: 55ch;

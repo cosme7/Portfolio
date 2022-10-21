@@ -66,7 +66,7 @@ export const Form = styled.form`
         cursor: pointer;
         border: none;
         outline: none;
-        transition: none;
+        transition: transform 0.2s ease-in-out;
     }
 
     input[type="submit"]:where(:hover, :focus){
@@ -74,6 +74,7 @@ export const Form = styled.form`
         font-weight: var(--fw-700);
         color: var(--bg-four);
         outline: 2px solid var(--bg-four);
+        transform: scale(0.95);
     }
 
     @media screen and (max-width:48em){

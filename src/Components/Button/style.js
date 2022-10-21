@@ -12,12 +12,13 @@ export const Btn = styled.button`
     border: none;
     cursor: pointer;
     text-decoration: none;
-    transition: none;
+    transition: transform 0.2s ease-in-out;
 
     :where(:hover, :focus){
         background-color: var(--clr-btn);
         font-weight: var(--fw-500);
         color: var(--bg-four);
         outline: 2px solid var(--bg-four);
+        transform: scale(0.95);
     }
 `;

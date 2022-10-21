@@ -36,7 +36,7 @@ export default function Home() {
                             educacionais, direcionados à
                             modernizar, inovar e facilitar a vida
                             dos usuários através de sistemas
-                            pensados com excelente experiência
+                            pensados na experiência
                             do usuário e acessibilidade. Tenho
                             bons conhecimentos em JavaScript,
                             adotando diversos conhecimentos
@@ -47,7 +47,7 @@ export default function Home() {
             </S.About>
             <S.Tech >
                 <Title name={'Minha '} emphasize={'Tech Stack'}/>
-                <p>Abaixo são às ferramentas que utilizo</p>
+                <p>Abaixo são as ferramentas que utilizo</p>
                 <figure>
                     <img src={HTML} alt="HTML" title='HTML'/>
                     <img src={CSS} alt="CSS" title='CSS' />
