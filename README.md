@@ -12,19 +12,19 @@
 #### Ferramentas Utilizada:
 
 <div>
-   <img width="40" src="src/Assets/tech_04.svg" />
-   <img width="40" src="src/Assets/tech_05.svg" />
+   <img width="40" src="src/Assets/tech_04.svg" alt="React" title="React"/>
+   <img width="40" src="src/Assets/tech_05.svg" alt="Styled-Components" title="Styled-Components"/>
 </div>
   
 ## Preview:
 #### - Desktop:
-<img align="center" width="500" src="src/Assets/Demo/GIF_Desktop.gif" />
+<img width="500" src="src/Assets/Demo/GIF_Desktop.gif" alt="Desktop Version" title="Desktop Version"/>
 
 #### - Tablet:
-<img width="400" src="src/Assets/Demo/GIF_Tablet.gif" />
+<img src="src/Assets/Demo/GIF_Tablet.gif" alt="Tablet Version" title="Tablet Version"/>
 
 #### - Mobile:
-<img width="300" src="src/Assets/Demo/GIF_Mobile.gif" />
+<img src="src/Assets/Demo/GIF_Mobile.gif" alt="Mobile Version" title="Mobile Version"/>
 
 ## Créditos:
 <h4>- Designs:</h4> 
