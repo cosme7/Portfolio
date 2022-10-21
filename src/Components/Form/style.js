@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Form = styled.form`
-    width: 25%;
+    width: 50%;
     padding: 1rem 1.5rem;
     border-radius: 8px;
     border: 1.5px solid var(--bg-four);
@@ -24,7 +24,7 @@ export const Form = styled.form`
     input[type="text"],
     input[type="email"]{    
         width: 100%;
-        min-height: 6vh;
+        min-height: 50px;
         padding-inline: 1rem;
         border-radius: 8px;
         border: 1px solid var(--bg-four);
@@ -37,7 +37,7 @@ export const Form = styled.form`
     input[type="email"]::placeholder,
     textarea::placeholder{
         color: var(--clr-one);
-        opacity: 0.7;
+        opacity: 0.9;
     }
 
     textarea{

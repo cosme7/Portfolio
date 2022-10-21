@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
     background-color: var(--bg-three);
 
     img{
-        width: 25%;
+        width: 35%;
         border-radius: 8px;
         border: 4px solid transparent;
         background: 

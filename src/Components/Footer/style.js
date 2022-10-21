@@ -17,10 +17,9 @@ export const Container = styled.section`
 
     p{
         justify-self: flex-start;
-        padding-right: 1.5rem;
         font-family: var(--ff-two);
-        font-size: clamp(1rem, 1vw, 1.3rem);
-        font-weight: var(--fw-400);
+        font-size: clamp(0.75rem, 1vw, 1.3rem);
+        font-weight: var(--fw-700);
         letter-spacing: 1px;
         color: var(--clr-one);
         text-transform: uppercase;
@@ -39,7 +38,6 @@ export const Container = styled.section`
 
         p{
             grid-area: 4 / 1;
-            padding: 0;
             justify-self: center;
         }
     }
