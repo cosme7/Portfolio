@@ -10,7 +10,6 @@
 - Além disso, Projeto de Desenvolvimento Sustentável abordando problemas dá sua localidade.
 
 #### Ferramentas Utilizada:
-
 <div>
    <img width="40" src="src/Assets/tech_04.svg" alt="React" title="React"/>
    <img width="40" src="src/Assets/tech_05.svg" alt="Styled-Components" title="Styled-Components"/>
@@ -44,3 +43,5 @@
 <h2>Link para o Site: https://csl-portfolio.netlify.app/</h2>
 
 <a href="https://www.linkedin.com/in/cosme-da-silva-leite-08baa3219/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+
+<p>PS: Fiz uma boa pesquisa pensando em Acessibilidade (ARIA), pensando nas ferramentas usadas para leitura de tela, espero que tenha dado frutos :star_struck:.</p>
