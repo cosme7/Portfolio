@@ -1,4 +1,4 @@
-# E aqui estamos nós! Último Projeto do #VaiNaWeb :grinning: :purple_heart:
+# Here we are! Último Projeto do #VaiNaWeb :grinning: :purple_heart:
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/cosme7/Portfolio?color=purple&style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/cosme7/Portfolio?color=purple&style=plastic)
