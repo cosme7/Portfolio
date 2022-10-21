@@ -27,10 +27,10 @@
 <img src="src/Assets/Demo/GIF_Mobile.gif" alt="Mobile Version" title="Mobile Version"/>
 
 ## Créditos:
-<h4>- Designs:</h4> 
-<li>@miguel_rt (Base geral do Portfólio)</li> 
-<li>@pavanmg007 (Também usei os Cards como base assim como a parte de Tech's.</li>
-<li>@melocoder (Usei como base o Cards)</li>
+<h4>- Designs @ do Figma:</h4> 
+<li>@miguel_rt - Base geral do Portfólio</li> 
+<li>@melocoder - Usei como base o Cards.</li>
+<li>@pavanmg007 - Também usei os Cards como base assim como a parte de Tech's.</li>
 
 <h4>- Error Page:</h4> 
 <li>@Tech5hu</li>
@@ -40,4 +40,4 @@
 
 <h2>Link: https://csl-portfolio.netlify.app/</h2>
 
-<a align="center" href="https://www.linkedin.com/in/cosme-da-silva-leite-08baa3219/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/cosme-da-silva-leite-08baa3219/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
