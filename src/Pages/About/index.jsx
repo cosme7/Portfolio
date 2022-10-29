@@ -12,7 +12,7 @@ export default function About() {
         <main>
             <S.Container id='main_content'>
                 <S.Wrapper aria-labelledby='about-me'>
-                    <img src={Photo} alt="personal" title="Indicação dá Tulani"/>
+                    <img src={Photo} alt="personal" title="Indicação do Mozart"/>
                     <S.AbouTxt>
                         <Title emphasize={'Cosme da S. Leite'}/>  
                         <p>Comecei a estudar Front-End no início desse ano (2022) 

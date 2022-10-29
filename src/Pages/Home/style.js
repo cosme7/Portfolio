@@ -80,11 +80,15 @@ export const AboutWrapper = styled.div`
     @media screen and (max-width:48em){
         flex-direction: column;
         align-items: center;
+
+        img{
+            width: 60%;
+        }
     }
 
     @media screen and (max-width:30em){
         img{
-            width: 70%;
+            width: 100%;
         }
     }
 `;

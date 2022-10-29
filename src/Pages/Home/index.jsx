@@ -3,7 +3,7 @@ import Title from '../../Components/Title';
 import Button from '../../Components/Button'
 import {Link} from "react-router-dom";
 import * as S from "./style"
-import Photo from "../../Assets/about_01.jpeg"
+import Photo from "../../Assets/about_01.jpg"
 import HTML from "../../Assets/tech_01.svg"
 import CSS from "../../Assets/tech_02.svg"
 import Js from "../../Assets/tech_03.svg"
@@ -28,7 +28,7 @@ export default function Home() {
             </S.Welcome>  
             <S.About >
                 <S.AboutWrapper>
-                    <img src={Photo} alt="personal" title='Indicação dá Tulani'/>
+                    <img src={Photo} alt="personal" title='Indicação do Mozart'/>
                     <S.AboutBox>
                         <Title name={'Sobre '} emphasize={'mim'}/>  
                         <p>Sou Desenvolvedor Front End,

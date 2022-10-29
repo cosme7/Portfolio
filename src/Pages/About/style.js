@@ -36,11 +36,9 @@ export const Wrapper = styled.div`
         flex-direction: column;
         align-items: center;
         row-gap: 1rem;
-    }
 
-    @media screen and (max-width:30em){
         img{
-            width: 70%;
+            width: 100%;
         }
     }
 `;
