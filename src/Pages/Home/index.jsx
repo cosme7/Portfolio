@@ -23,7 +23,7 @@ export default function Home() {
                 <p>Bem vindo ao meu Portfólio!</p>
                 <S.BtnBox>
                     <Link to='/projects'><Button name={'Ver Projetos'}/></Link>
-                    <a href="https://drive.google.com/file/d/1FiP7d1q1Natlyt5qi7TbWYXpGj9xl7xz/view" target="_blank" rel="noreferrer"><Button name={'Currículo'}/></a>
+                    <a href="https://drive.google.com/file/d/1-gX8mh3iqCiY7_wQwSZXC4q_fhKUhaI0/view" target="_blank" rel="noreferrer"><Button name={'Currículo'}/></a>
                 </S.BtnBox>
             </S.Welcome>  
             <S.About >
